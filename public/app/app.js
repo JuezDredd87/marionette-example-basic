@@ -1,7 +1,6 @@
 define([
   'backbone',
   'marionette',
-
   'router',
   'view/layout'
 ], function (Backbone, Marionette, Router, Layout) {

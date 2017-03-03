@@ -1,7 +1,6 @@
 define([
   'marionette',
   'app',
-
   'view/header/header',
   'view/index/index',
   'view/settings/settings'

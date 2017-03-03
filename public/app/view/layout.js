@@ -1,6 +1,5 @@
 define([
   'marionette',
-
   'hbs!template/layout'
 ], function (Marionette, layout) {
 

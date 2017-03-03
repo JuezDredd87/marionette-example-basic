@@ -6,7 +6,6 @@ define([
 
     appRoutes: {
       "settings" : "settings",
-
       "*actions" : "index"
     }
   });
