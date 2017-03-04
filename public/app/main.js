@@ -21,25 +21,9 @@ require.config({
     marionette : '../lib/backbone/backbone.marionette',
     'backbone.wreqr' : '../lib/backbone/backbone.wreqr',
     'backbone.babysitter' : '../lib/backbone/backbone.babysitter',
+    dust: '../lib/dust/dust-core.js',
+    dustRenderer: '../lib/backbone/backbone.marionette'
 
-    // Handlebars templating plugin
-    // https://github.com/SlexAxton/require-handlebars-plugin
-    hbs: '../lib/handlebars/hbs', // use 'hbs!' prefix to render handlebars templates
-    handlebars: '../lib/handlebars/handlebars',
-    i18nprecompile : "../lib/handlebars/i18nprecompile",
-    json2 : "../lib/handlebars/json2",
-
-    // templates location
-    template: '../template'
-  },
-
-  // hbs config
-  hbs: {
-
-    disableI18n: true, // localization file is read from 'app/template/i18n'
-    disableHelpers: true // handlebars helper files are read from 'app/template/helpers'
-
-    //templateExtension: "html" // default is hbs
   }
 });
 
