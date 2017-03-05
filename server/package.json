@@ -11,9 +11,9 @@
     "url": "https://github.com/nilgradisnik/marionette-scaffolding"
   },
   "dependencies": {
+    "dustjs-linkedin": "^2.7.5",
     "express": "3.1.0",
-    "hbs": "~2.0.2",
-    "stylus": "~0.32.1",
-    "nib": "~0.9.1"
+    "nib": "~0.9.1",
+    "stylus": "~0.32.1"
   }
 }

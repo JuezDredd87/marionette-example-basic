@@ -1,5 +1,0 @@
-define([
-  'marionette',
-], function (Marionette) {
-
-});

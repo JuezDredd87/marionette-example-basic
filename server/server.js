@@ -12,7 +12,7 @@
 var express = require('express');
 var stylus  = require('stylus');
 var nib     = require('nib');
-var hbs     = require('hbs');
+var dust = require('dustjs-linkedin');
 
 /**
  * Express web app
@@ -23,14 +23,7 @@ var app = module.exports = express();
  * Express configuration
  */
 app.configure(function() {
-
-  // Setup Handlebars templating engine
-  // More info: (https://github.com/donpark/hbs)
-  app.set('view engine', 'html');
-  app.engine('html', hbs.__express);
-
   app.use(app.router);
-
   app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
 });
 
@@ -87,10 +80,6 @@ app.post('/users', function(req, res) {
   res.send('ok');
 });
 
-// Handlebars helper, returns json string
-hbs.registerHelper('json', function(context) {
-  return JSON.stringify(context);
-});
 
 /**
  * Start server
