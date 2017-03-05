@@ -1,5 +1,7 @@
 define([
   'marionette',
+  'dust',
+  'dustRenderer',
   'app',
   'view/header/header',
   'view/index/index',

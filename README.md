@@ -11,7 +11,3 @@
 ## Server
 
   The `server` folder contains simple Node.js server. You'll find more info on how to run in and install dependencies there
-  
-### Author
- Feel free to contact me [Nil Gradisnik](mailto:nil.gradisnik@gmail.com) ([@ghaefb](http://twitter.com/ghaefb))
- 
