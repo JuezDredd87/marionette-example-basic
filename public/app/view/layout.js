@@ -8,7 +8,8 @@ define([
 
     regions: {
       header: "#header",
-      content: "#content"
+      content: "#content",
+      footer: "#footer"
     }
   });
 });

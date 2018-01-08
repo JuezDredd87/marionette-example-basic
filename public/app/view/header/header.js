@@ -1,10 +1,10 @@
 define([
-  'marionette',
+    'marionette',
 
-  'hbs!template/header/header'
+    'hbs!template/header/header'
 ], function(Marionette, header) {
 
-  return Marionette.ItemView.extend({
-    template: header
-  });
+    return Marionette.ItemView.extend({
+        template: header
+    });
 });
